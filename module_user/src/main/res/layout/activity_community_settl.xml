@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+
+    android:orientation="vertical">
+
+    <com.zeewain.base.widgets.CustomActionBar
+        app:title="新社团入驻"
+        android:background="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="数字化企业文化家园"
+        android:textColor="#ffffffff"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        />
+
+
+    <RelativeLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="158dp">
+
+
+
+        <ImageView
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="26dp"
+            android:background="@mipmap/icon_circle"
+            android:layout_width="10dp"
+            android:layout_height="10dp"/>
+
+        <TextView
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="如果你想了解社团的文化故事"
+            android:textColor="#ff333333"
+            android:textSize="12sp"
+            />
+
+
+
+        <ImageView
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="51dp"
+            android:background="@mipmap/icon_circle"
+            android:layout_width="10dp"
+            android:layout_height="10dp"/>
+
+        <TextView
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="47dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="如果你想看看那些优秀同事都是如何工作的"
+            android:textColor="#ff333333"
+            android:textSize="12sp"
+            />
+
+
+
+
+        <ImageView
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="76dp"
+            android:background="@mipmap/icon_circle"
+            android:layout_width="10dp"
+            android:layout_height="10dp"/>
+
+        <TextView
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="72dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="如果你想通过学习实现自我提升"
+            android:textColor="#ff333333"
+            android:textSize="12sp"
+            />
+
+
+
+
+
+        <ImageView
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="101dp"
+            android:background="@mipmap/icon_circle"
+            android:layout_width="10dp"
+            android:layout_height="10dp"/>
+
+        <TextView
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="97dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="如果你想有人能为你答疑解惑"
+            android:textColor="#ff333333"
+            android:textSize="12sp"
+            />
+
+
+
+
+
+
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="125dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请用【社团元宇宙服务平台】，社团专属的文化家园"
+            android:textColor="#6F59DA"
+            android:textSize="12sp"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@mipmap/community_cul"
+
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="207dp">
+
+
+        <TextView
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="传播社团文化"
+            android:textColor="#ff333333"
+            android:textSize="16sp"
+            />
+
+
+        <TextView
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Corporate Culture"
+            android:textColor="#ffbbbbbb"
+            android:textSize="12sp"
+            />
+
+
+        <TextView
+            android:layout_marginTop="19dp"
+            android:drawablePadding="15dp"
+            android:drawableLeft="@drawable/shape_circle"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="企业文化上墙"
+            android:textColor="#ff333333"
+            android:textSize="12sp"
+            />
+
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:drawablePadding="15dp"
+            android:drawableLeft="@drawable/shape_circle"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注释企业文化"
+            android:textColor="#ff333333"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:drawablePadding="15dp"
+            android:drawableLeft="@drawable/shape_circle"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="回顾文化故事"
+            android:textColor="#ff333333"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:drawablePadding="15dp"
+            android:drawableLeft="@drawable/shape_circle"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="见证企业荣誉"
+            android:textColor="#ff333333"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_marginTop="8dp"
+            android:drawablePadding="15dp"
+            android:drawableLeft="@drawable/shape_circle"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="学习服务案例"
+            android:textColor="#ff333333"
+            android:textSize="12sp"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_show_join"
+        android:text="申请试用"
+        style="@style/BigButtonThemeStyle"/>
+
+</LinearLayout>

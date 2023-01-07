@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_top_c12_ffffff"
+    android:orientation="vertical">
+
+
+    <View
+        android:layout_width="42dp"
+        android:layout_height="4dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/shape_c2_line" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:text="新社团入驻"
+        android:textColor="#ff333333"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="超级管理员名称"
+                android:textColor="@color/colorHint"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/tv_name"
+                android:text="*"
+                android:textColor="@color/colorRed"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+
+
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:background="@null"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:background="@color/colorLine" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_ide_apply_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_ide_apply_id"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="申请人名称"
+                android:textColor="@color/colorHint"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/tv_ide_apply_id"
+                android:text="*"
+                android:textColor="@color/colorRed"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+
+
+        <EditText
+            android:id="@+id/et_ide_apply_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:background="@null"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:background="@color/colorLine" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_ide_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_ide_id"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="社团名称"
+                android:textColor="@color/colorHint"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/tv_ide_id"
+                android:text="*"
+                android:textColor="@color/colorRed"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+
+
+        <EditText
+            android:id="@+id/et_ide_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:background="@null"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:background="@color/colorLine" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp">
+
+
+        <TextView
+            android:id="@+id/tv_sel_ide_scale"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="27dp"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="社团规模"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorHint"
+            android:textSize="16sp" />
+
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="73dp"
+            android:background="@color/colorLine" />
+
+
+        <ImageView
+            android:id="@+id/iv_sel_scale"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="45dp"
+            android:paddingLeft="4dp"
+            android:paddingTop="2dp"
+            android:paddingRight="4dp"
+            android:paddingBottom="2dp"
+            android:src="@mipmap/icon_angle" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:background="@color/colorLine" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp">
+
+
+        <RelativeLayout
+            android:id="@+id/rl_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="27dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_ide_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="手机号"
+                android:textColor="#999999"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/tv_ide_phone"
+                android:text="*"
+                android:textColor="@color/colorRed" />
+
+
+        </RelativeLayout>
+
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:background="@null"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:background="@color/colorLine" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp">
+
+
+        <EditText
+            android:id="@+id/et_cap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:background="@null"
+            android:hint="验证码"
+            android:maxLength="6"
+            android:textColor="@color/colorBlack"
+            android:textColorHint="@color/colorHint"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:background="@drawable/selector_capter"
+            android:textColor="#5E47B9"
+            android:id="@+id/tv_cap"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:enabled="true"
+            android:gravity="center"
+            android:text="获取验证码" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:background="@color/colorLine" />
+
+    </RelativeLayout>
+
+
+    <Button
+
+        android:layout_marginTop="30dp"
+        android:background="@drawable/selector_theme_btn"
+        android:id="@+id/btn_submit"
+        android:textColor="@color/colorWhite"
+        android:layout_width="160dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center_horizontal"
+        android:text="立刻申请" />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="1625dp"
+    android:background="@mipmap/home_img_activities_poster_bg"
+    tools:context=".ui.activities.ActivitiesPosterActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.zeewain.base.widgets.CustomActionBar
+            android:id="@+id/cab_classic_app_list"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/action_bar_size"
+            app:title="运动会"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

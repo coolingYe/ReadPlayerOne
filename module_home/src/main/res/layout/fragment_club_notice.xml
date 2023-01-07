@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.notice.ClubNoticeFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nsv_club_notice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.youth.banner.Banner
+                android:id="@+id/banner_about_club"
+                android:layout_width="match_parent"
+                android:layout_height="164dp"/>
+
+            <com.zee.club.home.widget.CardListView
+                android:id="@+id/card_list_notice_industry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="11dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginTop="12dp"
+                app:cardListLeftPadding="0dp"
+                app:cardListRightPadding="0dp"
+                app:cardTitle="行业社团"
+                app:cardShowMore="false"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@android:color/transparent"/>
+
+            <com.zee.club.home.widget.CardListView
+                android:id="@+id/card_list_notice_owner"
+                android:layout_width="match_parent"
+                android:layout_height="165dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="12dp"
+                app:cardTitle="本社团通知"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="2dp"/>
+
+            <com.zee.club.home.widget.CardListView
+                android:id="@+id/card_list_notice_bidding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="12dp"
+                app:cardTitle="招投标信息"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="2dp"/>
+
+            <com.zeewain.base.widgets.BackToTopView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="30dp"/>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>

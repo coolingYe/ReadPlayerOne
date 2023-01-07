@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zee.club.user">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application>
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".ui.bind.BindCommunityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.SelectIdeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.mine.QrCodeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.BindStatusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.ForgetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.mine.TempMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.mine.GatherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.mine.MessageCenterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.CommunitySetlActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.mine.ExamineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.mine.InteractionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.mine.UserInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.web.WebViewActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

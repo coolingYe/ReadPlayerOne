@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="102dp">
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="202dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="19dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="捷报！佳都科技预中标2.38亿佳都科技预中标…"
+        android:textColor="#ff000000"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/iv_pic"
+        android:layout_width="110dp"
+        android:layout_height="62dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginRight="25dp"
+        android:background="@color/colorPurPle" />
+
+
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginBottom="16dp"
+        android:text="2017-07-21"
+        android:textColor="#ff666666"
+        android:textSize="12sp" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:background="#6B55D8" />
+
+</RelativeLayout>

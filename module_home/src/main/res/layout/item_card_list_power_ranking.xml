@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_company_ranking"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/src_dp_6">
+
+    <LinearLayout
+        android:id="@+id/layout_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_company_top"
+            android:layout_width="@dimen/src_dp_26"
+            android:layout_height="30dp"
+            android:layout_marginEnd="3dp"
+            tools:src="@mipmap/ic_gold_medal" />
+
+        <TextView
+            android:id="@+id/tv_company_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/src_dp_3"
+            android:textColor="#666666"
+            android:textSize="@dimen/src_font_14"
+            android:visibility="gone"
+            tools:text="1"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_company_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/src_dp_13"
+        android:layout_marginTop="@dimen/src_dp_3"
+        android:layout_marginEnd="@dimen/src_dp_20"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:maxLines="1"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/src_font_10"
+        app:layout_constraintEnd_toStartOf="@+id/tv_power_value"
+        app:layout_constraintStart_toEndOf="@+id/layout_start"
+        app:layout_constraintTop_toTopOf="@+id/layout_start"
+        tools:text="企业名称" />
+
+    <ProgressBar
+        android:id="@+id/progress_power"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="@dimen/src_dp_20"
+        android:max="1000"
+        android:progressDrawable="@drawable/ic_progress_bar_background"
+        app:layout_constraintEnd_toStartOf="@id/tv_power_value"
+        app:layout_constraintStart_toStartOf="@+id/tv_company_name"
+        app:layout_constraintTop_toBottomOf="@+id/tv_company_name"
+        tools:progress="550" />
+
+    <TextView
+        android:id="@+id/tv_power_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-medium"
+        android:maxLines="1"
+        android:textColor="#6B55D8"
+        android:textSize="@dimen/src_font_14"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="500" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

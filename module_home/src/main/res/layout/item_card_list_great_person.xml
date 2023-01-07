@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="56dp"
+    android:layout_height="145dp"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_marginStart="@dimen/src_dp_28">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_user_top"
+        android:layout_width="56dp"
+        android:layout_height="136dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="@drawable/ic_rectangle_top1_background">
+
+        <LinearLayout
+            android:id="@+id/layout_avatar_frame"
+            android:layout_width="44dp"
+            android:layout_height="57dp"
+            android:orientation="vertical"
+            tools:background="@mipmap/ic_avatar_frame_top_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="-8dp"
+            android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_user_avatar"
+            android:layout_width="@dimen/src_dp_40"
+            android:layout_height="@dimen/src_dp_40"
+            android:layout_marginTop="@dimen/src_dp_13"
+            tools:background="@mipmap/ic_user_head" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="1"
+            android:textColor="#333333"
+            android:textSize="@dimen/src_font_12"
+            android:layout_marginTop="@dimen/src_dp_5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layout_avatar_frame"
+            tools:text="XXX" />
+
+        <TextView
+            android:id="@+id/tv_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/src_dp_1"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="2"
+            android:textColor="#666666"
+            android:textSize="6sp"
+            app:layout_constraintEnd_toEndOf="@+id/tv_user_name"
+            app:layout_constraintStart_toStartOf="@+id/tv_user_name"
+            app:layout_constraintTop_toBottomOf="@+id/tv_user_name"
+            tools:text="XXX" />
+
+        <LinearLayout
+            android:id="@+id/layout_power_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            tools:background="@drawable/ic_ellipse_top1_backgorund"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_group">
+
+        <TextView
+            android:id="@+id/tv_power_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="#FF7020"
+            android:textSize="@dimen/src_font_14"
+            tools:text="500" />
+
+        <TextView
+            android:id="@+id/tv_power_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-3dp"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="2"
+            android:textColor="#666666"
+            android:textSize="6sp"
+            tools:text="贡献值" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <!--gravity 可以设置线的位置如： bottom下划线，center中划线
+        height：设置线的宽度  -->
+  <item android:gravity="bottom"
+      android:height="3dp">
+    <shape>
+      <!--下划线颜色-->
+      <solid android:color="#6F59DA"/>
+      <corners android:radius="13dp" />
+    </shape>
+
+  </item>
+</layer-list>

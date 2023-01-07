@@ -1,0 +1,13 @@
+apply from: "../module.build.gradle"
+
+android {
+    defaultConfig {
+        if (rootProject.ext.isBuildModule) {
+            applicationId "com.zee.club.user"
+        }
+    }
+}
+
+dependencies {
+
+}

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/home_img_activities_publish_bg"
+    tools:context=".ui.activities.ActivitiesPublishActivity">
+
+    
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="337dp"
+        android:background="#FFF"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/tv_activities_publish_datetime_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="47dp"
+            android:layout_marginStart="27dp"
+            android:text="活动开始时间"
+            android:textSize="14sp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/tv_activities_publish_date_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@+id/tv_activities_publish_datetime_start"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_activities_publish_datetime_start"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginStart="124dp"
+            android:text="活动时间"
+            android:textSize="14sp"
+            android:textColor="#999"/>
+
+        <TextView
+            android:id="@+id/tv_activities_publish_time_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@+id/tv_activities_publish_datetime_start"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_activities_publish_datetime_start"
+            app:layout_constraintLeft_toRightOf="@+id/tv_activities_publish_date_start"
+            android:layout_marginStart="22dp"
+            android:text="活动时间"
+            android:textSize="14sp"
+            android:textColor="#999"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="77dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="23dp"
+            android:background="#6B55D8"/>
+
+
+        <TextView
+            android:id="@+id/tv_activities_publish_datetime_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="102dp"
+            android:layout_marginStart="27dp"
+            android:text="活动结束时间"
+            android:textSize="14sp"
+            android:textColor="#000"/>
+
+        <TextView
+            android:id="@+id/tv_activities_publish_date_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@+id/tv_activities_publish_datetime_end"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_activities_publish_datetime_end"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginStart="124dp"
+            android:text="活动时间"
+            android:textSize="14sp"
+            android:textColor="#999"/>
+
+        <TextView
+            android:id="@+id/tv_activities_publish_time_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@+id/tv_activities_publish_datetime_end"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_activities_publish_datetime_end"
+            app:layout_constraintLeft_toRightOf="@+id/tv_activities_publish_date_end"
+            android:layout_marginStart="22dp"
+            android:text="活动时间"
+            android:textSize="14sp"
+            android:textColor="#999"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="132dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="23dp"
+            android:background="#6B55D8"/>
+
+        <TextView
+            android:id="@+id/tv_activities_publish_creator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="157dp"
+            android:layout_marginStart="27dp"
+            android:text="活动发起方"
+            android:textSize="14sp"
+            android:textColor="#000"/>
+
+        <EditText
+            android:id="@+id/et_activities_publish_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@+id/tv_activities_publish_creator"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_activities_publish_creator"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:background="@null"
+            android:hint="请输入活动发起方"
+            android:layout_marginStart="124dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="187dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="23dp"
+            android:background="#6B55D8"/>
+
+        <TextView
+            android:id="@+id/tv_activities_publish_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="212dp"
+            android:layout_marginStart="27dp"
+            android:text="活动内容"
+            android:textSize="14sp"
+            android:textColor="#000"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_activities_publish_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_activities_publish_content"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginStart="124dp"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:spanCount="3"/>
+
+        <TextView
+            android:id="@+id/tv_activities_publish"
+            android:layout_width="146dp"
+            android:layout_height="46dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@mipmap/home_img_publish_btn"
+            android:text="立即发布"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#FFF"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

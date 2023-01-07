@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:gravity="center_vertical"
+        android:layout_marginLeft="3dp"
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="某某某某某某某某社团"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorLine" />
+    
+    
+    <ImageView
+        android:layout_marginRight="8dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:background="@mipmap/item_right"
+        android:layout_width="5dp"
+        android:layout_height="11dp"/>
+
+</RelativeLayout>

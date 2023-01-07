@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_marginStart="19dp"
+    android:layout_marginEnd="19dp"
+    android:layout_marginBottom="19dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tv_information_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="12sp"
+        android:ellipsize="end"
+        android:textColor="@android:color/black"
+        android:maxLines="2"
+        tools:text="捷报！佳都科技预中标2.38亿佳都科技预中标"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/iv_info_img"
+        android:layout_width="match_parent"
+        android:layout_marginTop="6dp"
+        android:layout_height="200dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_information_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_information_title"/>
+
+    <TextView
+        android:id="@+id/tv_have_read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="10sp"
+        android:textColor="#666666"
+        tools:text="96位朋友已看过"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/iv_info_img"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_information_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginStart="38dp"
+        android:textSize="10sp"
+        android:textColor="#666666"
+        tools:text="2020-12-22"
+        app:layout_constraintTop_toTopOf="@+id/tv_have_read"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="6dp"
+        android:background="#6B55D8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_have_read" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

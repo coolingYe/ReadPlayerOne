@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+//    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+//    repositories {
+//        google()
+//        mavenCentral()
+//    }
+}
+rootProject.name = "CommunityMeta"
+include ':app'
+include ':module_user'
+include ':BaseLibrary'
+include ':DownloadLib'
+include ':module_home'

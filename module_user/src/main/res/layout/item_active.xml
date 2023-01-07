@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp">
+    <ImageView
+        android:id="@+id/iv_active_icon"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="22dp"
+        android:src="@color/colorPurPle"
+        android:layout_width="24dp"
+        android:layout_height="24dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_active_title"
+        android:layout_marginRight="100dp"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第一届元宇宙运动会开始了"
+        android:textColor="#ff333333"
+        android:textSize="14sp"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_active_statue"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="41dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="去参与"
+        android:textColor="@color/colorPurPle"
+        android:textSize="14sp"
+        />
+
+
+    <ImageView
+        android:background="@mipmap/icon_item_right_zhi"
+        android:layout_marginRight="15dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="24dp"
+        android:layout_height="24dp"/>
+
+
+
+</RelativeLayout>

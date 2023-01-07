@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CardListView">
+        <attr name="cardTitle" format="string" />
+        <attr name="cardListLeftPadding" format="dimension" />
+        <attr name="cardListRightPadding" format="dimension" />
+        <attr name="cardShowMore" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="GreatPersonView">
+        <attr name="personNameText" format="string" />
+        <attr name="powerValueText" format="string" />
+        <attr name="powerValueTextColor" format="color" />
+        <attr name="personNameTextColor" format="color" />
+        <attr name="avatarFrameImage" format="reference|color" />
+        <attr name="avatarImage" format="reference|color" />
+    </declare-styleable>
+</resources>

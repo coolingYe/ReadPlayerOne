@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.about.AboutClubFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nsv_about_club"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.youth.banner.Banner
+                android:id="@+id/banner_about_club"
+                android:layout_width="match_parent"
+                android:layout_height="164dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_about_association"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="125dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="2dp">
+                <TextView
+                    android:id="@+id/tv_about_association_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="广州市安全防范行业协会"
+                    android:textSize="14sp"
+                    android:textColor="#333333"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="left|top"/>
+
+                <TextView
+                    android:id="@+id/tv_about_association_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="查看更多"
+                    android:drawableEnd="@mipmap/home_icon_arrow_next"
+                    android:drawablePadding="7dp"
+                    android:textSize="12sp"
+                    android:textColor="#5D46B8"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="11dp"
+                    android:layout_gravity="right|top"/>
+
+                <TextView
+                    android:id="@+id/tv_about_association_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="     新华社北京6月3日电  国家主席习近平6月3日晚同德国总理默克尔通电话。习近平指出，这是我们自新冠肺炎疫情发生以来第三次通话，体现了双方的高度政治互信和密切战略沟通。德方愿同中方保持密切沟通，推进德中、欧中重要议程，推动德中、欧中关系向更高水平迈进。"
+                    android:textSize="10sp"
+                    android:textColor="#333"
+                    android:layout_marginEnd="18dp"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="40dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:id="@+id/img_about_energy_station"
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="12dp"
+                android:contentDescription="@null"
+                android:src="@mipmap/home_img_energy_station"/>
+
+            <com.zee.club.home.widget.CardListView
+                android:id="@+id/card_list_about_health"
+                android:layout_width="match_parent"
+                android:layout_height="151dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="12dp"
+                app:cardTitle="体育健康"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="2dp"/>
+
+            <com.zee.club.home.widget.CardListView
+                android:id="@+id/card_list_about_lucky"
+                android:layout_width="match_parent"
+                android:layout_height="151dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="12dp"
+                app:cardTitle="幸运元宇宙"
+                app:cardListLeftPadding="13dp"
+                app:cardListRightPadding="0dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="2dp"/>
+
+            <com.zee.club.home.widget.CardListView
+                android:id="@+id/card_list_about_technology"
+                android:layout_width="match_parent"
+                android:layout_height="151dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="12dp"
+                app:cardTitle="科技文化"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="2dp"/>
+
+            <com.zee.club.home.widget.CardListView
+                android:id="@+id/card_list_about_other"
+                android:layout_width="match_parent"
+                android:layout_height="151dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="12dp"
+                app:cardTitle="其它"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="2dp"/>
+
+            <com.zeewain.base.widgets.BackToTopView
+                android:id="@+id/btv_about_club"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="30dp"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>

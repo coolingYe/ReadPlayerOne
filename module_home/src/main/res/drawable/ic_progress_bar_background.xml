@@ -1,0 +1,16 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- setting ProgressBar Background Color-->
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="8dp"/>
+            <solid android:color="#CAC8D7"/>
+        </shape>
+    </item>
+
+    <!-- setting ProgressBar Color -->
+    <item android:id="@android:id/progress">
+        <scale android:scaleWidth="100%"
+            android:drawable="@drawable/ic_progress_bar_color_background"/>
+    </item>
+</layer-list>
