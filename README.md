@@ -1,2 +1,2 @@
-# CommunityMeta
+# Projects for Learning Practice
 
